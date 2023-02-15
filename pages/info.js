@@ -12,17 +12,30 @@ export default function Info() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
+      <main className={styles.infoMain}>
           <div>
             {
               record.map( (rec, index) => {
                 return(
-                  <div key={index} style={{display:'flex'}}>
+                  <div key={index} style={{display:'flex', flexDirection:'row'}}>
 
-                    <div style={{display:'flex', flexDirection:'row-reverse'}}>
-                    <div>{rec.City}</div>
+                  <div className={styles.infoCardCont}>
+
+                    <div className={styles.infoCard}>
+                    <div>
+                      <p className={styles.cityP}>{rec.City}</p>
                     </div>
 
+                    <div>
+                      <Image src='/../public/indo.png' width={200} height={100}/>
+                    </div>
+
+                    <div>
+                      <p className={styles.infoP}>{rec.Place_Tourism1}</p>
+                    </div>
+
+                    </div>
+                  </div>
                   </div>
 
                 )

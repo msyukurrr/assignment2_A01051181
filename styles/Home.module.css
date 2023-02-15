@@ -4,6 +4,13 @@
   background-repeat: no-repeat;
 }
 
+.infoMain {
+  display:flex;
+  justify-content: center;
+  background-color:#DAD7CD;
+  flex-wrap: wrap;
+}
+
 .h1Home{
   display:'flex';
   justify-content: center;
@@ -20,7 +27,7 @@
 .button {
   display:flex;
   height: 50px;
-  width: 150px;
+  width: 200px;
   align-items: center;
   justify-content: center;
   font-size: 20px;
@@ -41,6 +48,31 @@
   text-align:center;
   font-family:'Montserrat'; 
   font-size: 20px
+}
+
+.infoCard{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #3A5A40;
+  height: 300px;
+  width: 250px;
+  margin: 10px;
+  border-radius:20px;
+}
+
+.cityP{
+  font-weight: 600;
+  font-family: 'Montserrat';
+  font-size: 35px;
+  color: #DAD7CD;
+}
+
+.infoP{
+  font-family: 'Montserrat';
+  font-size: 20px;
+  color:#a3b18a;
+  text-align: center;
 }
 
 @media (max-width: 600px) {

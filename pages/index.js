@@ -31,25 +31,10 @@ export default function Home(){
       </div>
 
       <div className={styles.buttonCont}>
-        <Link href="../jakarta">
-        <button className={styles.button}>Jakarta</button>
+        <Link href="../info">
+        <button className={styles.button}>Check It Out!</button>
         </Link>
 
-        <Link href="../yogyakarta">
-        <button className={styles.button}>Yogyakarta</button>
-        </Link>
-
-        <Link href="../bandung">
-        <button className={styles.button}>Bandung</button>
-        </Link>
-
-        <Link href='../semarang'>
-        <button className={styles.button}>Semarang</button>
-        </Link>
-
-        <Link href='../surabaya'>
-        <button className={styles.button}>Surabaya</button>
-        </Link>
       </div>
 
     </main>
