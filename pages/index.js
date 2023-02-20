@@ -1,11 +1,20 @@
 import styles from '../styles/Home.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
+import Head from 'next/head'
 
 export default function Home(){
 
   return(
     <div>
+
+        <Head>
+          <title>Explore Indonesia</title>
+          <meta name="author" content="MDIA 2109" />
+          <meta property="title" content="Assignment #2 - Home Page" />
+          <meta property="description" content="Exploring Cities in Indonesia" />
+          <link rel="icon" href="/indo.png" />
+      </Head>
 
 
     <main className={styles.main}>
@@ -17,8 +26,8 @@ export default function Home(){
         <div style={{display:'flex',height:'50vh', width:'60vw', backgroundColor:'#3A5A40', borderRadius: 30, marginBottom:10, paddingLeft: 10, paddingRight:10}}>
           <div style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
           <p className={styles.homeP}>Indonesia is a Southeast Asian country comprised of more than 17,000 islands, with a population of over 270 million people. 
-            The country's capital is Jakarta, and it has a diverse culture, language, and religion. 
-            Indonesia's economy is largely based on agriculture, mining, and tourism. 
+            The country capital is Jakarta, and it has a diverse culture, language, and religion. 
+            Indonesia economy is largely based on agriculture, mining, and tourism. 
             The country is home to various natural attractions, including beaches, mountains, and rainforests, as well as numerous traditional 
             arts and crafts. Indonesia has a rich history and has been influenced by various cultures, including Indian, Chinese, and European. 
             </p>

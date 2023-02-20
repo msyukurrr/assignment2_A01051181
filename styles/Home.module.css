@@ -6,9 +6,17 @@
 
 .infoMain {
   display:flex;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 6rem;
+  min-height: 100vh;
   background-color:#DAD7CD;
   flex-wrap: wrap;
+}
+
+.h1Info{
+  color: #a3b18a;
+  font-family: 'Montserrat';
+  font-size:80px;
 }
 
 .h1Home{
